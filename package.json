@@ -1,0 +1,33 @@
+{
+  "name": "steam-simulatelogin",
+  "version": "1.0.2",
+  "description": "Using nodejs to simulate logging into steam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "steam",
+    "login",
+    "steamlogin",
+    "steamworkers",
+    "nodejs"
+  ],
+  "bugs": {
+		"web": "https://github.com/Gratrunka/steam-simulatelogin/issues"
+	},
+	"repository": {
+		"type": "git",
+    "url": "https://github.com/Gratrunka/steam-simulatelogin"
+	},
+	"homepage": "https://github.com/Gratrunka/steam-simulatelogin#readme",
+  "author": "gratrunk", 
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
